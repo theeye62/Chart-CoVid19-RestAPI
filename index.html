@@ -19,7 +19,7 @@
 
                 <center><h2>Covid Global Cases by SGN</h2></center>
 
-                <canvas id="myChart" width="600" height="1000"></canvas>
+                <canvas id="myChart" width="200" height="900"></canvas>
 
         </div>
     </div>
@@ -77,6 +77,8 @@ async function getDummyData() {
 
     countryLabel = country
     casesData = cases
+    //casesData = cases.sort(function(a, b){return b - a})
+    console.log(casesData)
 }
 
 
