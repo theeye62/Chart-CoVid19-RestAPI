@@ -19,7 +19,7 @@
 
                 <center><h2>Covid Global Cases by SGN</h2></center>
 
-                <canvas id="myChart"></canvas>
+                <canvas id="myChart" width="600" height="1000"></canvas>
 
         </div>
     </div>
